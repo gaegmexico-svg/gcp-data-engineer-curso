@@ -8,7 +8,7 @@ def main():
 
     bucket_name = args.bucket_name
     print("Bucket name received:{bucket-name}")
-    # Aquí puedes agregar la lógica para crear el bucket usando la biblioteca de Google Cloud Storage.
+    # Aquí puedes agrar la lógica para crear el bucket usando la biblioteca de Google Cloud Storage.
 
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
